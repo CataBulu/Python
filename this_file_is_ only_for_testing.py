@@ -1,4 +1,3 @@
-# script.py
 italian_food = [
   "Pasta Bolognese",
   "Pepperoni pizza",
