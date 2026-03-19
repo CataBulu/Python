@@ -15,8 +15,7 @@ def fetch_data(option):
 
   return data
 
-option = input("Enter an option (e.g., 'people' or 'planets'): ").strip().lower()
-data = fetch_data(option)
+data = fetch_data("people")
 
 if data:
   for entity in data:
