@@ -47,3 +47,5 @@ while len(deck) > 0:
         show_card(card)
 
 print("\nWe are out of cards!")
+
+input("Press enter to exit...")

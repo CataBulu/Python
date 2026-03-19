@@ -23,3 +23,5 @@ if data:
     print(entity["name"])
 else:
     print("Unable to download data")
+
+input("Press enter to exit...")
