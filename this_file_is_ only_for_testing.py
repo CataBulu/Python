@@ -1,3 +1,15 @@
-weight = 50
-height = 1.6
-print(weihgt/(height*height))
+class Car: 
+  def startUp(self): 
+    print("Press brake") 
+     
+  def turn_on_ac(self): 
+    print("AC on") 
+ 
+class Manual(Car): 
+  def start_up(self): 
+    print("Press clutch") 
+ 
+car = Manual()
+ 
+car.turn_on_ac() 
+car.start_up()
