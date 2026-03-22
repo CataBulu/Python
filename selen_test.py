@@ -13,10 +13,10 @@ driver.implicitly_wait(10)
 # 1. Maximizăm fereastra imediat ce pornește browserul
 driver.maximize_window()
 
-driver.get("https://ro.wikipedia.org/wiki/Pagina_principal%C4%83")
+driver.get("https://www.emag.ro/?msockid=31c98c6bef17601606879b4fee736185")
 
 # 2. Folosim ID-ul exact al barei de căutare în loc de NAME
-search_box = driver.find_element("xpath", "//form[@id='searchform']//input")
+search_box = driver.find_element("xpath", "//form[@id='searchboxTrigger']//input")
 #search_box = driver.find_element("css selector", "input.cdx-text-input__input")   nu prea se foloseste
-search_box.send_keys("Buna Ziua")
+search_box.send_keys("iphone 15")
 search_box.send_keys(Keys.RETURN)
